@@ -1,0 +1,10 @@
+{
+  "verifier_deployment_gas": 2850000,
+  "per_verification_gas": 289096,
+  "verify_call_gas": 285000,
+  "calldata_gas": 4096,
+  "proof_size_bytes": 256,
+  "timestamp": "2026-05-18T15:33:52.467Z",
+  "proof_system": "Groth16",
+  "curve": "BN254"
+}
