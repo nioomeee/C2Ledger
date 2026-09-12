@@ -1,482 +1,96 @@
-# C2Ledger 🌱
+# 🌱 H2Ledger - The Future of Green Hydrogen Credits
 
-### One credit. One identity. One auditable lifecycle.
-
-C2Ledger is a blockchain-powered carbon credit verification and tracking system designed to bring transparency, traceability, and integrity to the carbon market.
-
-It connects real-world carbon reduction or capture events to verified carbon credits and tracks every stage of their lifecycle — from data capture and verification to issuance, ownership, transfer, and final retirement.
-
-By maintaining a verifiable ledger of every credit, C2Ledger helps prevent double-counting and double-selling while giving issuers, buyers, auditors, and regulators a transparent source of truth.
+**A decentralized platform for managing Green Hydrogen Credits (GHC) with trust, transparency, and security.**
+H2Ledger bridges **green hydrogen producers, certifiers, corporates, and auditors** into one ecosystem powered by blockchain, Zero-Knowledge Proofs, and an intuitive marketplace.
 
 ---
 
-## 🌍 The Problem
+## 🏆 Why H2Ledger? (Our Unique Edge)
 
-Carbon markets face a fundamental trust problem.
+H2Ledger isn’t just another carbon-credit tool — it’s a **complete ecosystem** designed for fairness, scalability, and real-world adoption.
 
-Carbon credits can be:
+* 🔐 **Unbreakable Security with ZKP** → Privacy-preserving & tamper-proof crediting
+* 👤 **Role-Based Crediting & Auditing** → Every participant (producer, certifier, auditor, buyer) has clearly defined permissions
+* 🏪 **Decentralized Marketplace** → Buy, sell, and trade credits in real-time
+* 🎓 **Producer Certification** → Independent certifiers grade and verify batches for credibility
+* 🔄 **Anti Double-Counting** → Strong safeguards ensure no credit is ever reused
+* 🏛 **Governance-Controlled Minting** → Only governance authority issues new credits, ensuring trust
+* 📊 **Batch Grading & Provenance** → Every GHC batch is traceable, certified, and auditable
+* 💎 **Award-Winning UX** → Clean, modern, and extremely simple to use
 
-- Double-counted
-- Double-sold
-- Poorly verified
-- Difficult to trace
-- Recorded across fragmented systems
-- Difficult for buyers and auditors to independently verify
-
-A carbon credit is only valuable if everyone can trust:
-
-> Where did it come from?
-
-> Was the underlying carbon reduction actually verified?
-
-> Who owns it?
-
-> Has it already been transferred?
-
-> Has it already been retired?
-
-C2Ledger is built to answer these questions through an auditable digital lifecycle.
+👉 **In short: H2Ledger = Trust + Transparency + Tradeability.**
 
 ---
 
-## 💡 The Solution
+## ✨ Key Features
 
-C2Ledger creates a verifiable chain connecting the physical world to the carbon market:
-
-```text
-REAL-WORLD CARBON EVENT
-          ↓
-     DATA CAPTURE
-          ↓
-       EVIDENCE
-          ↓
-      VERIFICATION
-          ↓
-    CREDIT ISSUANCE
-          ↓
-      OWNERSHIP
-          ↓
-       TRANSFER
-          ↓
-      RETIREMENT
-          ↓
-   PERMANENT PROOF
-```
-
-Every important action generates a traceable ledger record.
+* 🔗 **MetaMask Wallet Integration** – One-click secure onboarding
+* 📊 **Personalized Dashboards** – Role-based views for every stakeholder
+* 🏭 **GHC Token Lifecycle** – From minting → certification → trading → retirement
+* 🏪 **Marketplace for Credits** – Seamless exchange of certified credits
+* 🎓 **Certification System** – Independent verifiers grade hydrogen quality
+* 🔄 **Anti-Double Counting Engine** – Ensures integrity of claims
+* 📖 **Auditable Ledger Feed** – Live and transparent record of all credit actions
 
 ---
 
-## 🔐 Core Features
+## 🏗 System Roles & Flow
 
-### Carbon Project Registration
-
-Create and manage carbon reduction and carbon removal projects with information such as:
-
-- Project type
-- Location
-- Issuer
-- Measurement methodology
-- Expected CO₂e reduction
-- Verification status
-
-### Carbon Event Tracking
-
-Record individual carbon reduction or capture events and associate them with supporting evidence.
-
-### Verification
-
-Auditors can review submitted carbon events and verify or reject them before credits can be issued.
-
-### Verifiable Credit Issuance
-
-Credits can only be issued against verified carbon reductions.
-
-The system prevents issuance beyond the verified CO₂e quantity.
-
-### Credit Registry
-
-Every credit receives a unique identity and lifecycle status.
-
-Example:
-
-```text
-H2C-000417
-```
-
-### Provenance
-
-Users can inspect the complete history of a credit:
-
-```text
-Carbon Event
-     ↓
-Verification
-     ↓
-Issuance
-     ↓
-Ownership
-     ↓
-Transfer
-     ↓
-Retirement
-```
-
-### Ownership Transfers
-
-Credit ownership is recorded whenever credits move between organizations.
-
-### Retirement
-
-Corporate buyers can permanently retire credits against their emissions.
-
-Once retired, credits cannot be transferred or sold again.
-
-### Double-Count Prevention
-
-C2Ledger prevents the same carbon event from being used to issue credits multiple times.
-
-### Double-Sell Prevention
-
-Credits cannot be transferred beyond the owner's available balance or transferred after retirement.
-
-### Public Verification
-
-Credits and their provenance can be independently inspected through their unique identifiers and ledger references.
+* **Governance Authority** → Approves & mints new GHC batches
+* **Producers** → Generate hydrogen & submit for certification
+* **Certifiers** → Verify, grade, and certify batches
+* **Auditors** → Validate compliance & prevent fraud
+* **Buyers / Corporates** → Acquire & retire credits for net-zero commitments
 
 ---
 
-## 🧠 Why Blockchain?
+## 🎬 Demo Flow (Simple 4-Step Journey)
 
-C2Ledger uses distributed-ledger technology where immutability and shared verification provide meaningful value.
-
-The goal isn't to put "blockchain" on a carbon marketplace for the sake of it.
-
-Instead, the ledger acts as a shared source of truth for:
-
-- Verification
-- Issuance
-- Ownership
-- Transfers
-- Retirement
-- Audit history
-
-This creates a tamper-resistant lifecycle for every credit.
+1️⃣ **Connect Wallet** → Secure login via MetaMask
+2️⃣ **Issue Credits** → Producers request certification
+3️⃣ **Certify & Grade** → Certifiers validate and approve credits
+4️⃣ **Trade or Retire** → Credits enter the marketplace, or corporates retire them for sustainability goals
 
 ---
 
-## 👥 Users
+## 📸 UI Showcase
 
-### Carbon Credit Issuers
+**1. Main Dashboard**
+![Dashboard](https://i.ibb.co/sdykL6LC/Screenshot-2025-08-30-170937.png)
 
-Register projects, submit carbon events, provide evidence, and issue verified credits.
+**2. Issue New Credits**
+![Issue New Credits](https://i.ibb.co/r22QH2mD/Whats-App-Image-2025-08-31-at-10-16-15-125d9fa6.jpg)
 
-### Corporate Buyers
+**3. Live Ledger Feed**
+![Live Ledger Feed](https://i.ibb.co/pBX6twxC/live-ledger-feed.png)
 
-Discover verified credits, acquire them, inspect their provenance, and retire them.
+**4. Marketplace** <a href="https://ibb.co/vvP136Td"><img src="https://i.ibb.co/0VMqCR69/Whats-App-Image-2025-08-31-at-08-38-38-2bb72f28.jpg" alt="Marketplace" border="0"></a>
 
-### Auditors / Verifiers
-
-Review carbon events, inspect evidence, and verify carbon reductions before issuance.
-
-### Regulatory Bodies
-
-Inspect projects, credits, ownership history, transfers, retirements, and suspicious activity.
+**5. Certifications** <a href="https://ibb.co/TqrTRZdp"><img src="https://i.ibb.co/qFxn9zVX/Whats-App-Image-2025-08-31-at-09-52-28-2aee7212.jpg" alt="Certifications" border="0"></a>
 
 ---
 
-## 🏗️ Architecture
+## 🛠 Tech Stack
 
-```text
-                 ┌─────────────────────┐
-                 │     C2Ledger UI     │
-                 └──────────┬──────────┘
-                            │
-                            ▼
-                 ┌─────────────────────┐
-                 │    Application API  │
-                 └──────────┬──────────┘
-                            │
-              ┌─────────────┴─────────────┐
-              ▼                           ▼
-     ┌─────────────────┐        ┌─────────────────┐
-     │ Carbon / Project│        │ Ledger / Smart  │
-     │     Data        │        │    Contracts    │
-     └─────────────────┘        └────────┬────────┘
-                                         │
-                                         ▼
-                              ┌─────────────────────┐
-                              │ Immutable Lifecycle │
-                              │       Records       │
-                              └─────────────────────┘
-```
-
-The exact implementation may evolve as the project develops.
+* **Frontend:** Next.js + Tailwind CSS (modern UI/UX)
+* **Blockchain:** Solidity (ERC-1155) + Hardhat
+* **Wallet:** MetaMask Integration
+* **Security:** Zero-Knowledge Proofs + Role-based access + Anti-double-counting
 
 ---
 
-## 🔄 Credit Lifecycle
+## 🌍 Real-World Impact
 
-A credit follows a defined lifecycle:
+🌎 **For Corporates** → Transparent, verifiable path to net-zero claims
+⚡ **For Producers** → Monetize verified green hydrogen production
+🛡 **For Auditors** → Easy compliance validation & fraud prevention
+🏛 **For Governments** → Scalable, trustworthy green credit registry
 
-```text
-CREATED
-   ↓
-VERIFIED
-   ↓
-ISSUED
-   ↓
-AVAILABLE
-   ↓
-TRANSFERRED
-   ↓
-RETIRED
-```
-
-Critical invariants are enforced throughout the lifecycle.
-
-For example:
-
-```text
-Verified CO₂e = 1,000 tonnes
-
-Maximum credits = 1,000
-
-Attempt to issue another 500
-             ↓
-          BLOCKED
-```
-
-Similarly:
-
-```text
-100 credits
-     ↓
-  RETIRED
-     ↓
-Attempt to transfer
-     ↓
-   BLOCKED
-```
+H2Ledger is more than code — it’s a **movement for sustainable, accountable energy.**
 
 ---
 
-## 🛡️ Integrity Rules
-
-C2Ledger is designed to prevent:
-
-- Issuing more credits than verified CO₂e
-- Duplicate credit issuance
-- Duplicate carbon events
-- Evidence reuse
-- Transfers beyond available balance
-- Transfers of retired credits
-- Duplicate retirement
-- Negative credit quantities
-
-These checks form the integrity layer of the platform.
+**💚 Crafted with Vision by Team DireDevs 🐺🚀**
+*"Towards a cleaner, transparent, and sustainable future."*
 
 ---
-
-## 🌱 Example
-
-Imagine a renewable energy project in Gujarat generates enough clean electricity to avoid:
-
-```text
-1,000 tCO₂e
-```
-
-After verification:
-
-```text
-1,000 carbon credits
-```
-
-are issued.
-
-A corporate buyer acquires:
-
-```text
-100 credits
-```
-
-The buyer later retires those credits.
-
-The ledger now records:
-
-```text
-Project
-  ↓
-Carbon Event
-  ↓
-Verification
-  ↓
-1,000 Credits Issued
-  ↓
-100 Credits Transferred
-  ↓
-100 Credits Retired
-```
-
-Attempting to sell those 100 retired credits again results in:
-
-```text
-TRANSACTION BLOCKED
-
-Retired credits cannot be transferred or sold.
-```
-
----
-
-## 🧪 Hackathon POC
-
-C2Ledger is currently developed as a Proof of Concept for the:
-
-### Circular Carbon Ecosystem
-
-**Challenge:** Verifiable Carbon Credit & Offset Tracking System
-
-The POC focuses on demonstrating the complete lifecycle of a carbon credit and the prevention of double-counting and double-selling.
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-Make sure you have the required runtime and package manager installed for the project.
-
-Clone the repository:
-
-```bash
-git clone https://github.com/nioomeee/C2Ledger.git
-cd C2Ledger
-```
-
-Install dependencies:
-
-```bash
-npm install
-```
-
-Start the development server:
-
-```bash
-npm run dev
-```
-
-> The exact commands may change as the project architecture evolves.
-
----
-
-## 🧑‍💻 Development
-
-Create a feature branch:
-
-```bash
-git checkout -b feature/your-feature
-```
-
-Make your changes, test them, and commit:
-
-```bash
-git add .
-git commit -m "feat: add carbon event verification"
-```
-
-Push your branch:
-
-```bash
-git push origin feature/your-feature
-```
-
----
-
-## 🗺️ Roadmap
-
-### P0 — Core
-
-- [x] Carbon project model
-- [x] Carbon event tracking
-- [x] Verification workflow
-- [x] Credit issuance
-- [x] Credit registry
-- [x] Ownership tracking
-- [x] Credit transfers
-- [x] Credit retirement
-- [x] Provenance
-- [x] Audit trail
-- [x] Double-count prevention
-- [x] Double-sell prevention
-
-### P1 — Enhanced Trust
-
-- [ ] Public credit verification
-- [ ] Evidence hashing
-- [ ] Regulatory dashboard
-- [ ] Fraud/integrity dashboard
-- [ ] Digital identity
-- [ ] Advanced analytics
-
-### P2 — Ecosystem Expansion
-
-- [ ] IoT data integration
-- [ ] IPFS evidence storage
-- [ ] QR-based credit verification
-- [ ] EVM testnet deployment
-- [ ] Advanced carbon methodologies
-- [ ] Interoperability with external registries
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome.
-
-If you would like to improve C2Ledger:
-
-1. Fork the repository.
-2. Create a feature branch.
-3. Make your changes.
-4. Test your implementation.
-5. Open a pull request.
-
-For significant changes, please open an issue first to discuss the proposed approach.
-
----
-
-## ⚠️ Disclaimer
-
-C2Ledger is a Proof of Concept and is not intended to serve as a certified carbon registry, financial instrument, or substitute for recognized carbon-market standards or regulatory systems.
-
-Carbon accounting methodologies, verification standards, and regulatory requirements should be implemented in accordance with the relevant jurisdiction and applicable standards before production deployment.
-
----
-
-## 📄 License
-
-C2Ledger is released under the MIT License.
-
-See [LICENSE](LICENSE) for details.
-
----
-
-## 🌱 Vision
-
-Carbon markets need more than credits.
-
-They need trust.
-
-C2Ledger aims to create the infrastructure where every credit can answer three simple questions:
-
-**Where did it come from?**
-
-**Who verified it?**
-
-**What happened to it?**
-
-### One credit.
-
-### One identity.
-
-### One auditable lifecycle.
