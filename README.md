@@ -1,5 +1,6 @@
 # C2Ledger: Privacy-Preserving Circular Carbon Ecosystem
 
+HackOut'26
 A decentralized, privacy-preserving ledger for tracking verified carbon reduction events and issuing carbon credits using zero-knowledge proofs (Groth16/zk-SNARKs).
 
 ## 🌿 Problem Statement
