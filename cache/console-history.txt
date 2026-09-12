@@ -1,0 +1,2 @@
+node scripts/check-roles.js
+cd scripts && node check-roles.js
