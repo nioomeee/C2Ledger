@@ -1,4 +1,4 @@
-# CarbonLedger: Privacy-Preserving Circular Carbon Ecosystem
+# C2Ledger: Privacy-Preserving Circular Carbon Ecosystem
 
 A decentralized, privacy-preserving ledger for tracking verified carbon reduction events and issuing carbon credits using zero-knowledge proofs (Groth16/zk-SNARKs).
 
@@ -11,11 +11,11 @@ Carbon credit markets suffer from:
 - Poor traceability between carbon reduction/capture events and issued credits
 - Difficulty auditing the lifecycle of a credit
 
-Publishing verification information on a public blockchain can expose trade secrets and market manipulation. **CarbonLedger solves this with cryptographic privacy and an auditable ledger:** carbon credit issuers can prove they meet verification thresholds without revealing raw underlying data, and the ledger tracks the exact lifecycle of the credit to prevent double issuance.
+Publishing verification information on a public blockchain can expose trade secrets and market manipulation. **C2Ledger solves this with cryptographic privacy and an auditable ledger:** carbon credit issuers can prove they meet verification thresholds without revealing raw underlying data, and the ledger tracks the exact lifecycle of the credit to prevent double issuance.
 
 ## 🔐 Solution: Zero-Knowledge Carbon Verification
 
-CarbonLedger uses **Groth16 zk-SNARKs** to enable projects to prove their carbon reduction/capture events meet a required threshold:
+C2Ledger uses **Groth16 zk-SNARKs** to enable projects to prove their carbon reduction/capture events meet a required threshold:
 
 ```
 actualCO2eReduced >= threshold
